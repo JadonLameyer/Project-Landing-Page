@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+  }
+
+.flex-container #recipes{
+    display: flex;
+    height: 100px;
+    flex: 1 1 0%;
+    flex-direction: row;
+  }
+
+.flex-container #quote{
+    display: flex;
+    height: 100px;
+    flex: 1;
+    flex-direction: column;
+    background: brown;
+  }
+
+.flex-container #signup{
+    display: flex;
+    height: 100px;
+    flex: 1;
+    flex-direction: column;
+    border: 4px solid brown;
+    background: bisque;
+  }
